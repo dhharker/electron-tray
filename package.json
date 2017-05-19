@@ -1,0 +1,26 @@
+{
+  "name": "electron-tray",
+  "version": "0.0.1",
+  "description": "Very simple package to add tray icon behaviour to an electron app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "tray",
+    "system",
+    "tray",
+    "icon"
+  ],
+  "author": "David Harker",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
+  },
+  "peerDependencies": {
+    "electron": "^1.6.8"
+  }
+}
