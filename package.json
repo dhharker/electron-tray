@@ -4,7 +4,8 @@
   "description": "Very simple package to add tray icon behaviour to an electron app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -s inline -o lib/index.js src/index.js"
   },
   "keywords": [
     "electron",
@@ -13,9 +14,10 @@
     "tray",
     "icon"
   ],
-  "author": "David Harker",
+  "author": "David Harker <david@dhharker.net>",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1"
