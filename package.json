@@ -15,6 +15,8 @@
     "icon"
   ],
   "author": "David Harker <david@dhharker.net>",
+  "repository": "dhharker/electron-tray",
+  "bugs": "https://github.com/dhharker/electron-tray/issues",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
