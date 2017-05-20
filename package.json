@@ -2,7 +2,7 @@
   "name": "electron-tray",
   "version": "0.0.1",
   "description": "Very simple package to add tray icon behaviour to an electron app",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel -s inline -o lib/index.js src/index.js"
