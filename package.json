@@ -1,6 +1,6 @@
 {
   "name": "electron-tray",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Very simple package to add tray icon behaviour to an electron app",
   "main": "lib/index.js",
   "scripts": {
