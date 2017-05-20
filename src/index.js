@@ -4,6 +4,7 @@
 import {Tray, Menu, BrowserWindow} from 'electron';
 import path from 'path';
 
+// Menu is a https://electron.atom.io/docs/api/menu-item/
 const defaultMenu = [
   // {
   //   label: 'Item1',
